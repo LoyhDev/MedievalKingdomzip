@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files (sensitive data)
+database/
+!database/.gitkeep
+
+# Backups
+*backup*.json
+*.backup
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+.temp/
+
+# Archives
+*.zip
+*.tar.gz

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build": "npm config set registry https://npmjs.org && npm install && cd MedievalKingdom/MedievalKingdom && npm install && cd ../../dashboard/server && npm install",
+    "start": "npx concurrently \"cd MedievalKingdom/MedievalKingdom && node index.js\" \"node dashboard/server/index.js\""
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,0 +1,156 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║              🏰 MEDIEVAL KINGDOM - NOUVELLES FONCTIONNALITÉS 🏰          ║
+║                                                                           ║
+║                          ✅ INSTALLATION TERMINÉE                         ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                         📦 FICHIERS CRÉÉS                                 │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  ✅ commands/blackmarket.js          - Marché noir                       │
+│  ✅ commands/guildquest.js           - Quêtes de guilde                  │
+│  ✅ database/guildQuests.json        - Données des quêtes                │
+│  ✅ commands/leaderboard.js          - Classement (modifié)              │
+│  ✅ deploy-commands.js               - Déploiement (modifié)             │
+│                                                                           │
+│  📚 DOCUMENTATION (6 fichiers)                                           │
+│  ✅ README_NOUVELLES_FONCTIONNALITES.md                                  │
+│  ✅ GUIDE_RAPIDE.md                                                      │
+│  ✅ GUIDE_DEMARRAGE_NOUVELLES_FONCTIONNALITES.md                         │
+│  ✅ NOUVELLES_FONCTIONNALITES.md                                         │
+│  ✅ TEST_NOUVELLES_FONCTIONNALITES.md                                    │
+│  ✅ CHANGELOG_NOUVELLES_FONCTIONNALITES.md                               │
+│  ✅ RESUME_IMPLEMENTATION.md                                             │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                      🎮 FONCTIONNALITÉS AJOUTÉES                          │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  🌙 MARCHÉ NOIR                                                          │
+│  ├─ Exclusif aux Voleurs                                                 │
+│  ├─ 10 items uniques (120-400 or)                                        │
+│  ├─ 3 niveaux de rareté                                                  │
+│  └─ Commande : /marchenoir                                               │
+│                                                                           │
+│  🏛️ QUÊTES DE GUILDE                                                     │
+│  ├─ 12 quêtes (3 par faction)                                            │
+│  ├─ Récompenses améliorées (+100% or, +233% réputation)                 │
+│  ├─ 3 niveaux de difficulté                                              │
+│  └─ Commande : /queteguilde                                              │
+│                                                                           │
+│  👑 TITRES DYNAMIQUES                                                     │
+│  ├─ Adaptation selon le nombre de joueurs                                │
+│  ├─ 15+ titres honorifiques                                              │
+│  ├─ Top 3 à Top 50 selon la population                                   │
+│  └─ Commande : /classement                                               │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                       🚀 COMMANDES DÉPLOYÉES                              │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  ✅ 20 commandes enregistrées avec succès                                │
+│                                                                           │
+│  NOUVELLES COMMANDES :                                                   │
+│  • /marchenoir          - Marché noir (Voleurs)                          │
+│  • /queteguilde         - Quêtes de guilde (Factions)                    │
+│                                                                           │
+│  COMMANDES MODIFIÉES :                                                   │
+│  • /classement          - Avec titres dynamiques                         │
+│                                                                           │
+│  📍 Type de déploiement : GLOBAL                                         │
+│  ⏱️  Délai de propagation : Jusqu'à 1 heure                              │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                      📊 STATISTIQUES DU PROJET                            │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  Code ajouté         : ~850 lignes                                       │
+│  Nouvelles commandes : 2 principales + 5 sous-commandes                  │
+│  Items créés         : 10 (marché noir)                                  │
+│  Quêtes créées       : 12 (guilde)                                       │
+│  Titres créés        : 15+                                               │
+│  Documentation       : 6 fichiers (40+ pages)                            │
+│  Tests définis       : 50+                                               │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                        🎯 PROCHAINES ÉTAPES                               │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  1. ⏳ ATTENDRE 1 HEURE pour la propagation des commandes globales       │
+│     OU configurer un guildId dans config.js pour un déploiement          │
+│     instantané sur votre serveur                                         │
+│                                                                           │
+│  2. 🚀 DÉMARRER LE BOT                                                   │
+│     > node index.js                                                      │
+│                                                                           │
+│  3. 🧪 TESTER LES FONCTIONNALITÉS                                        │
+│     • Créer un personnage Voleur                                         │
+│     • Visiter le marché noir avec /marchenoir                            │
+│     • Rejoindre une faction                                              │
+│     • Faire une quête de guilde avec /queteguilde                        │
+│     • Vérifier le classement avec /classement                            │
+│                                                                           │
+│  4. 📚 LIRE LA DOCUMENTATION                                             │
+│     • README_NOUVELLES_FONCTIONNALITES.md (index)                        │
+│     • GUIDE_RAPIDE.md (démarrage rapide)                                 │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                      💡 CONSEILS POUR DÉMARRER                            │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  POUR LES VOLEURS :                                                      │
+│  1. /personnage creer nom:MonVoleur classe:voleur                        │
+│  2. /quete nouvelle (pour gagner de l'or)                                │
+│  3. /marchenoir (visiter le marché noir)                                 │
+│  4. /marchenoir item:dague_empoisonnee (acheter)                         │
+│                                                                           │
+│  POUR TOUS :                                                             │
+│  1. /faction rejoindre faction:ordre_royal                               │
+│  2. /queteguilde liste                                                   │
+│  3. /queteguilde accepter id:royal_patrol                                │
+│  4. (attendre 20 minutes)                                                │
+│  5. /queteguilde terminer                                                │
+│                                                                           │
+│  POUR LE CLASSEMENT :                                                    │
+│  1. /classement (voir les titres)                                        │
+│  2. Monter en niveau pour obtenir un titre                               │
+│  3. Rester actif pour garder sa position                                 │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                         📞 SUPPORT ET AIDE                                │
+├───────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  Documentation complète : README_NOUVELLES_FONCTIONNALITES.md            │
+│  Guide rapide          : GUIDE_RAPIDE.md                                 │
+│  Tests                 : TEST_NOUVELLES_FONCTIONNALITES.md               │
+│  Changelog             : CHANGELOG_NOUVELLES_FONCTIONNALITES.md          │
+│                                                                           │
+│  En cas de problème :                                                    │
+│  • Vérifiez les logs du bot                                              │
+│  • Consultez la section Dépannage dans GUIDE_DEMARRAGE...md             │
+│  • Relisez la documentation                                              │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║                    ✅ TOUT EST PRÊT ! BON JEU ! 🎮                       ║
+║                                                                           ║
+║              Medieval Kingdom - Version 1.3.0 - Janvier 2025             ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
